@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "farmingexpanded",
+  "version": "${version}",
+  "name": "Farming Expanded",
+  "description": "An expansion to Minecraft's farming",
+  "authors": [
+    "BronzeOrbiter"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "BSD-3-Clause",
+  "icon": "assets/farmingexpanded/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bronzeorbiter.farmingexpanded.FarmingExpanded"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "botanical-core"]
+	path = botanical-core
+	url = https://github.com/BronzeOrbiter/botanical-core.git
